@@ -6,7 +6,7 @@
 </head>
 <body>
 
-    <form method="post">
+    <form method="post" action="#">
         <!-- Name -->
         <label for="name">Name*</label>
         <input type="text" id="name" name="name" placeholder="Name" required><br><br>
@@ -20,18 +20,18 @@
         <input type="radio" id="male" name="gender" value="Male" required>
         <label for="male">Male</label><br>
 
-        <input type="radio" id="female" name="gender" value="Female" required>
+        <input type="radio" id="female" name="gender" value="Female">
         <label for="female">Female</label><br>
 
-        <input type="radio" id="other" name="gender" value="Other" required>
+        <input type="radio" id="other" name="gender" value="Other">
         <label for="other">Other</label><br><br>
 
         <!-- Laptop Brands -->
         <label for="laptop">Laptop Brands</label>
         <select id="laptop" name="laptop">
-            <option>Apple</option>
-            <option>Asus</option>
-            <option>HP</option>
+            <option value="Apple">Apple</option>
+            <option value="Asus">Asus</option>
+            <option value="HP">HP</option>
         </select><br><br>
 
         <!-- Age -->
